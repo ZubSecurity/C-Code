@@ -56,7 +56,7 @@ int main()
     std::cout << "cc is " << (cc.isNull() ? "null\n" : "not null\n");
 	std::cout << "ss is " << (ss.isNull() ? "null\n" : "not null\n");
  
-	ss = cc; // res2 assumes ownership, res1 is set to null
+	ss = cc; // ss get ownership, cc is set to null
  
 	std::cout << "Ownership transferred\n";
  
