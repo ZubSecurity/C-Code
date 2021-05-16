@@ -14,8 +14,6 @@
 // // const int &&rref{x}; const not accept lvalue.
 
 // }
-
-#include <iostream>
  
 class Fraction
 {
